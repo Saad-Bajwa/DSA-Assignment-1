@@ -1,0 +1,20 @@
+Insertion at Beginning :
+    Create a new node with the data to be inserted.
+    Set the next pointer of the new node to point to the current head of the linked list.
+    Update the head of the linked list to point to the new node.
+    Time Complexity for insertion at beginning is 0(1)
+Insertion at Beginning :
+    If the list is empty (head is null), there's nothing to delete.
+    Otherwise, update the head of the linked list to point to the next node of the current head.
+    Optionally, free the memory of the node that was removed.
+    Time Complexity for deletion at beginning is 0(1)
+Insertion at End :
+    Create a new node with the data to be inserted.
+    If the list is empty, set both the head and tail pointers to point to the new node.
+    Otherwise, set the next pointer of the current tail node to point to the new node and update the tail pointer to point to the new node.
+    Time Complexity for insertion at end is 0(1)
+Deletion at End :
+    If the list is empty (head is null), there's nothing to delete.
+    If the list has only one node, set both the head and tail pointers to null.
+    Otherwise, traverse the list until you reach the second-to-last node, update its next pointer to null, and update the tail pointer to point to this node.
+    Time Complexity for deletion at end is 0(n)

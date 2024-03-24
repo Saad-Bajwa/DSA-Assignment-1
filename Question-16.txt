@@ -1,0 +1,13 @@
+Single Linked List:
+    In a singly linked list, each node contains data and a pointer/reference to the next node in the sequence.
+    The last node's pointer points to null, indicating the end of the list.
+    Traversal is only possible in one direction, starting from the head node and following the next pointers.
+
+Doubly Linked List:
+    In a doubly linked list, each node contains data and two pointer/reference to the next and previous node in the sequence.
+    The last node's next pointer points to null and the first node's previous pointer points to null, indicating the end and start of the list.
+    Traversal is possible in both direction, starting from the head node and starting from the tail node, following the next pointers.
+
+Cicular Linked List:
+    In a circular linked list, the last node's pointer does not point to null; instead, it points back to the first node, forming a circular structure.
+    Traversal in a circular linked list is possible starting from any node, and it can traverse the entire list by following the next pointers until reaching the starting node again.

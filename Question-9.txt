@@ -1,0 +1,8 @@
+Common Operations on the arrays : 
+Accessing Elements
+Insertion
+Deletion
+Searching
+Sorting
+Merging
+Traversing

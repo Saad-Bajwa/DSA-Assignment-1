@@ -1,0 +1,6 @@
+head->info:     17
+head->link:     2800
+head->link->info:       92
+current->link->link:        3600
+current->link->link->info:      45     
+current->link->info->link:      Error! Info doesnot contain any link.
